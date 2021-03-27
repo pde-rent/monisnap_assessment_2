@@ -1,0 +1,88 @@
+@import "constants";
+@import "mixins";
+
+// load material icons from google cdn (we could do the same for Nunito)
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+//@import url("https://fonts.googleapis.com/icon?family=Material+Icons+Outlined");
+//@import url("https://fonts.googleapis.com/icon?family=Material+Icons+Round");
+
+@include font-face("#{$font-body}", nunito-regular);
+@include font-face("#{$font-body} Light", nunito-light);
+@include font-face("#{$font-body} SemiBold", nunito-semibold);
+@include font-face("#{$font-body} Bold", nunito-bold);
+@include font-face("#{$font-title}", space-grotesk);
+
+.font-title {
+  font-family: $font-title;
+}
+.font-body {
+  font-family: $font-body;
+}
+.font-bold {
+  font-weight: 700;
+}
+.font-slim {
+  font-weight: 200;
+}
+.font-active {
+  color: $active;
+}
+.font-primary {
+  color: $primary;
+}
+.font-secondary {
+  color: $secondary;
+}
+.font-light {
+  color: $light
+}
+.font-grey {
+  color: $grey
+}
+.font-dark {
+  color: $dark;
+}
+
+.font-1p5rem {
+  font-size: 1.5rem;
+}
+
+.font-1p2rem {
+  font-size: 1.2rem;
+}
+
+.font-2rem {
+  font-size: 2rem;
+}
+
+.font-2p5rem {
+  font-size: 2.5rem;
+}
+
+.font-2p25rem {
+  font-size: 2.25rem;
+}
+
+.font-3rem {
+  font-size: 3rem;
+}
+
+.align-center {
+  text-align: center;
+}
+
+// material icon styling (c.f. https://google.github.io/material-design-icons/)
+
+/* Rules for sizing the icon. */
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+
+/* Rules for using icons as black on a light background. */
+.material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
+.material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
+
+/* Rules for using icons as white on a dark background. */
+.material-icons.md-light { color: rgba(255, 255, 255, 1); }
+.material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }

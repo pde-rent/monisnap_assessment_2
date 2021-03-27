@@ -1,0 +1,29 @@
+{
+    "890238d8d7a14c918df391fb4dac7e49": {
+        "uid": "890238d8d7a14c918df391fb4dac7e49",
+        "accountUid": "5428f1c4da08b439dcc7bb8fc588317a",
+        "displayName": "Myself",
+        "countryAlpha2": "FR",
+        "avatarPath": "/avatars/placeholder",
+        "favoriteRecipientUid": "acb7ae3f505c811a0d3d637527b1896d",
+        "favoriteRecipientTransferCount": "11"
+    },
+    "217b7024ff33c6b2b8553cb44e4b10c3": {
+        "uid": "217b7024ff33c6b2b8553cb44e4b10c3",
+        "accountUid": "fc92fc457ada086b93ef5e939dac2553",
+        "displayName": "Maman",
+        "countryAlpha2": "MA",
+        "avatarPath": "/avatars/acb7ae3f505c811a0d3d637527b1896d",
+        "favoriteRecipientUid": "",
+        "favoriteRecipientTransferCount": ""
+    },
+    "acb7ae3f505c811a0d3d637527b1896d": {
+        "uid": "acb7ae3f505c811a0d3d637527b1896d",
+        "accountUid": "3b9696f0fd695701cf47852494f9f54c",
+        "displayName": "Edouard",
+        "countryAlpha2": "CM",
+        "avatarPath":  "/avatars/acb7ae3f505c811a0d3d637527b1896d",
+        "favoriteRecipientUid": "",
+        "favoriteRecipientTransferCount": ""
+    }
+}

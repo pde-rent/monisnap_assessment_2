@@ -1,0 +1,29 @@
+@import "reset";
+@import "typo";
+@import "constants";
+
+html {
+  background-color: black;
+}
+
+html, body {
+  font-family: $font-body;
+  width: 100%;
+  min-height: 100%;
+}
+
+#q-app {
+  min-height: 100%;
+}
+
+#q-notify {
+  .q-notifications__list {
+    .q-notification__message {
+      font-size: 1.25rem;
+      color: $light-grey;
+      font-family: monospace;
+      font-weight: 600;
+      word-wrap: break-word;
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+    "FR": { "name": "France", "alpha2": "FR","alpha3": "FRA", "numeric": "250" },
+    "SN": { "name": "Senegal", "alpha2": "SN","alpha3": "SEN", "numeric": "686" },
+    "CM": { "name": "Cameroon", "alpha2": "CM","alpha3": "CMR", "numeric": "120" },
+    "CI": { "name": "Ivory Coast", "alpha2": "CI","alpha3": "CIV", "numeric": "384" },
+    "TN": { "name": "Tunisia", "alpha2": "TN","alpha3": "TUN", "numeric": "788" },
+    "MA": { "name": "Marocco", "alpha2": "MA","alpha3": "MAR", "numeric": "504" }
+}
